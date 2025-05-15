@@ -1,0 +1,236 @@
+{
+  "contact_info": {
+    "phone": "0191 200 4000",
+    "email": "enquiries@ncl-coll.ac.uk",
+    "address": "Rye Hill Campus, Scotswood Road, Newcastle Upon Tyne, NE4 7SA"
+  },
+  "term_dates": {
+    "autumn": "2 September \u2013 19 December 2024",
+    "spring": "7 January \u2013 11 April 2025",
+    "summer": "28 April \u2013 27 June 2025"
+  },
+  "links": {
+    "apply": "https://www.ncl-coll.ac.uk/apply-now",
+    "events": "https://www.ncl-coll.ac.uk/events",
+    "apprenticeships": "https://www.ncl-coll.ac.uk/apprenticeships",
+    "contact_form": "https://www.ncl-coll.ac.uk/contact",
+    "tlevels": "https://www.ncl-coll.ac.uk/tlevels",
+    "student_portal": "https://portal.ncl-coll.ac.uk",
+    "staff_portal": "https://staff.ncl-coll.ac.uk"
+  },
+  "student_types": {
+    "16_18": {
+      "entry_requirements": {
+        "L1": "No or few GCSEs",
+        "L2": "GCSEs grade 3 and below",
+        "L3": "Five GCSEs at grade 4+"
+      },
+      "routes": [
+        "T-Levels",
+        "BTEC",
+        "A Levels (via Newcastle Sixth Form)"
+      ],
+      "support": [
+        "Learning Mentors",
+        "eTrackr",
+        "Free travel"
+      ],
+      "apply": "Apply via www.ncl-coll.ac.uk or at Open Events"
+    },
+    "adult_19_plus": {
+      "free_courses": [
+        "Free Courses for Jobs",
+        "Skills Bootcamps",
+        "Multiply (Maths)",
+        "Open Doors"
+      ],
+      "bursaries": [
+        "Free travel",
+        "Free childcare",
+        "Free equipment and meals",
+        "Laptop loan"
+      ],
+      "eligibility_summary": "Must be 19+ and meet income or benefit-related criteria",
+      "contact": "Student Services: 0191 200 4000 / enquiries@ncl-coll.ac.uk"
+    },
+    "apprenticeships": {
+      "routes": [
+        "Business Administrator",
+        "Motor Vehicle Technician",
+        "Digital Tech Solutions",
+        "Hair Professional",
+        "Carpentry and Joinery",
+        "Engineering Operative"
+      ],
+      "entry_requirements": {
+        "L2": "GCSE Grade 3 or Functional Skills Level 1",
+        "L3+": "GCSE Grade 4 or Functional Skills Level 2"
+      },
+      "pay_info": "Minimum \u00a37.55/hour. Paid work + training.",
+      "how_to_apply": "Apply via Open Events or www.ncl-coll.ac.uk/apprenticeships"
+    },
+    "university_centre": {
+      "htqs": [
+        "FdSc Software Engineering",
+        "HTQ in Digital",
+        "HTQ in Health",
+        "HTQ in Sport"
+      ],
+      "degrees": [
+        "CertHE",
+        "Foundation Degree (L5)",
+        "BA/BSc Honours",
+        "Top-Up Degrees",
+        "Postgraduate"
+      ],
+      "bursaries": [
+        "\u00a31,000 cash bursary",
+        "\u00a3550 engagement bursary"
+      ],
+      "facilities": [
+        "HE Hub",
+        "CAD/BIM Suites",
+        "Digital Labs",
+        "HE-only study zones"
+      ]
+    }
+  },
+  "courses": {
+    "level_3": [
+      "Skills Bootcamp in Film and TV Production Technical Support",
+      "Skills Bootcamp in Technical Skills for Live Events (Stagehand)",
+      "Supporting Teaching and Learning",
+      "Early Years Educator",
+      "Understanding Dementia Care",
+      "Diploma in Adult Care",
+      "CIPD People Practice",
+      "TAQA Assessor Training",
+      "AAT Certificate in Bookkeeping"
+    ],
+    "fdsc": [
+      "FdSc Software Engineering",
+      "FdSc Networking and Cyber Security",
+      "FdSc Healthcare Practice",
+      "FdSc Physical Education and Sports Coaching",
+      "FdSc Games Technologies",
+      "FdSc Psychology with Sociology",
+      "FdSc Criminology, Policing and Criminal Law",
+      "FdSc Computing"
+    ],
+    "access_to_he": [
+      "Access to HE - Allied Healthcare and Social Work",
+      "Access to HE - Art and Design",
+      "Access to HE - Business",
+      "Access to HE - Education",
+      "Access to HE - Law with History",
+      "Access to HE - Nursing and Midwifery",
+      "Access to HE - Psychology",
+      "Access to HE - Science Biochemical (Pharmacy)",
+      "Access to HE - Engineering with Physics and Maths",
+      "Access to HE - Environmental Science and Green Energy",
+      "Access to HE - Humanities with Social Science and History",
+      "Access to HE - Photography, Media and Digital Design"
+    ],
+    "htq": [
+      "HTQ in Business",
+      "HTQ in Computing",
+      "HTQ in Health and Social Care",
+      "HTQ in Children and Young People",
+      "HTQ in Sport",
+      "HTQ in Performing Arts",
+      "HTQ in Hospitality"
+    ]
+  },
+  "course_details": {
+    "fdsc_software_engineering": {
+      "title": "FdSc Software Engineering",
+      "overview": "This course develops the skills needed for careers in software development, programming, and system design. You'll learn coding in multiple languages, software architecture, databases, and agile project methods.",
+      "level": "Level 5",
+      "location": "University Centre Newcastle",
+      "progression": "Top-up to BSc (Hons) Software Engineering or enter industry.",
+      "duration": "2 years full-time",
+      "mode": "Full-time or part-time"
+    },
+    "fdsc_healthcare_practice": {
+      "title": "FdSc Healthcare Practice",
+      "overview": "A foundation course for careers in health and social care. Focuses on human anatomy, care frameworks, communication and safeguarding.",
+      "level": "Level 5",
+      "location": "University Centre Newcastle",
+      "progression": "Progress to BSc (Hons) in Healthcare Practice or similar.",
+      "duration": "2 years",
+      "mode": "Full-time"
+    },
+    "access_nursing": {
+      "title": "Access to HE - Nursing and Midwifery",
+      "overview": "Prepares adult learners for university-level nursing or midwifery courses. Covers biology, psychology, health studies, and academic skills.",
+      "level": "Level 3",
+      "location": "Main campus",
+      "progression": "Apply to university for Nursing or Midwifery degrees.",
+      "duration": "1 year",
+      "mode": "Full-time"
+    },
+    "htq_computing": {
+      "title": "HTQ in Computing",
+      "overview": "High-level technical qualification covering networking, cybersecurity, programming, and systems analysis for computing careers.",
+      "level": "Level 4",
+      "location": "University Centre Newcastle",
+      "progression": "Progress to FdSc Software Engineering or HTQ in Digital.",
+      "duration": "1 year",
+      "mode": "Full-time"
+    },
+    "access_business": {
+      "title": "Access to HE \u2013 Business",
+      "overview": "Designed for those with a strategic mindset, this course explores performance management, finance, and leadership, preparing learners to progress into a business-related degree.",
+      "level": "Level 3",
+      "location": "Main Campus",
+      "progression": "University degree in Business or Management",
+      "duration": "35 weeks",
+      "mode": "Daytime"
+    },
+    "access_art_design": {
+      "title": "Access to HE \u2013 Art and Design",
+      "overview": "A vibrant course for creative individuals interested in visual arts, digital media, and design. Students develop skills across various artistic techniques in preparation for a creative arts degree.",
+      "level": "Level 3",
+      "location": "Main Campus",
+      "progression": "Degree in Art, Design, or Media",
+      "duration": "35 weeks",
+      "mode": "Daytime"
+    },
+    "access_engineering": {
+      "title": "Access to HE \u2013 Engineering with Physics and Maths",
+      "overview": "For aspiring engineers, this course covers mechanical principles, physics, chemistry, and mathematical applications in engineering, leading to degree-level progression.",
+      "level": "Level 3",
+      "location": "Main Campus",
+      "progression": "Engineering degree programmes",
+      "duration": "35 weeks",
+      "mode": "Daytime"
+    },
+    "fdsc_psychology_sociology": {
+      "title": "FdSc Psychology with Sociology",
+      "overview": "Examines psychological theory and societal influences, this course prepares students for roles in social research, education, and mental health services.",
+      "level": "Level 5",
+      "location": "University Centre Newcastle",
+      "progression": "Top-up to BSc or careers in psychology-related fields",
+      "duration": "2 years",
+      "mode": "Full-time"
+    },
+    "fdsc_games_tech": {
+      "title": "FdSc Games Technologies",
+      "overview": "A practical foundation for game design and development. Students work on live projects involving 3D design, animation, and front/back-end game architecture.",
+      "level": "Level 5",
+      "location": "University Centre Newcastle",
+      "progression": "BSc Top-Up or game development careers",
+      "duration": "2 years",
+      "mode": "Full-time"
+    },
+    "fdsc_networking": {
+      "title": "FdSc Networking and Cyber Security",
+      "overview": "Focused on securing digital infrastructure, this course includes training in Cisco, Windows Server, and Python. Ideal for careers in cyber security and IT.",
+      "level": "Level 5",
+      "location": "University Centre Newcastle",
+      "progression": "Cybersecurity analyst roles or BSc Computing",
+      "duration": "2 years",
+      "mode": "Full-time"
+    }
+  }
+}
