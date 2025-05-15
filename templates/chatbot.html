@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newcastle College ChatBot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f6f8fb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 40px 20px;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .chatbot {
+      width: 100%;
+      max-width: 600px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .chat-window {
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 15px;
+      background: #fafafa;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .message.user {
+      text-align: right;
+      color: #0077cc;
+    }
+
+    .message.bot {
+      text-align: left;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      gap: 10px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      background-color: #0077cc;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+    <h1>Newcastle College Ai Helper</h1>
+  <div class="chatbot">
+    <div class="chat-window" id="chatWindow">
+      <div class="message bot">Hello! How can I assist you today with your queries about Newcastle College?</div>
+    </div>
+    <form id="chatForm">
+      <input type="text" id="userInput" placeholder="Type your question here..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("chatForm");
+    const input = document.getElementById("userInput");
+    const chatWindow = document.getElementById("chatWindow");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const userMessage = input.value.trim();
+      if (!userMessage) return;
+
+      chatWindow.innerHTML += `<div class='message user'>${userMessage}</div>`;
+      input.value = "";
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+
+      try {
+        const res = await fetch("https://ncl-chatbot-backend.onrender.com/chat", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message: userMessage }),
+        });
+
+        const data = await res.json();
+        chatWindow.innerHTML += `<div class='message bot'>${data.response}</div>`;
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+      } catch (error) {
+        chatWindow.innerHTML += `<div class='message bot'>Sorry, something went wrong. Please try again later.</div>`;
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+      }
+    });
+  </script>
+</body>
+</html>
