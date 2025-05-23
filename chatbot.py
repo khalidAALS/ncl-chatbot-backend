@@ -145,6 +145,16 @@ def chat():
 
     return jsonify({"response": answer})
 
+@app.route("/", methods=["GET"])
+def home():
+    return (
+        "<h2>Newcastle College ChatBot API is Live</h2>"
+        "<p>To use the chatbot, make a POST request to <code>/chat</code>.</p>"
+        "<p>This backend is used by the frontend chatbot hosted on GitHub Pages.</p>",
+        200,
+    )
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=10000)
 
